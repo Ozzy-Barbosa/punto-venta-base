@@ -4,6 +4,8 @@ Un prototipo funcional y reutilizable de punto de venta para **Brisa · Mercado 
 
 **[Abrir aplicación](https://ozzy-barbosa.github.io/punto-venta-base/) · [Prompt maestro](docs/PROMPT-MAESTRO.md) · [Investigación](docs/INVESTIGACION-POS.md) · [Guía de adaptación](docs/ARQUITECTURA-Y-ADAPTACION.md)**
 
+![Resumen de Brisa POS](docs/images/escritorio-resumen.png)
+
 ## Qué puedes hacer
 
 | Área                   | Funciones                                                                                                                |

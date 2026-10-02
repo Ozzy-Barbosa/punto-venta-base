@@ -52,4 +52,12 @@ Pruebas sobre Chromium/Edge; no sustituyen pruebas en Safari, Firefox, equipos f
 
 ## Publicación
 
-Repositorio y Pages: `Ozzy-Barbosa/punto-venta-base`. El resultado del despliegue y la comprobación de la URL pública se registrarán aquí al finalizar la publicación.
+- Repositorio público: [Ozzy-Barbosa/punto-venta-base](https://github.com/Ozzy-Barbosa/punto-venta-base).
+- Aplicación: [Brisa POS](https://ozzy-barbosa.github.io/punto-venta-base/), HTTP 200 y HTTPS habilitado.
+- Versión de aplicación comprobada: `10b63f60b316ef51b20c6eda92a39c7499a62496`.
+- [Despliegue 36957798479](https://github.com/Ozzy-Barbosa/punto-venta-base/actions/runs/36957798479): finalizado con éxito; pruebas del motor y compilación también ejecutadas en GitHub.
+- Archivos principales publicados cotejados contra la compilación local: `index-DojdQ3Hc.css` y `index-D_hVt3bV.js`, coincidencia confirmada; hoja de estilo responde HTTP 200.
+- **Los 12 recorridos de navegador se repitieron contra la URL pública y aprobaron (45,4 s)**: 6 en escritorio y 6 en móvil, incluidos venta/devolución, inventario, compras/caja, configuración/exportación, restauración y doble clic.
+- Las pruebas públicas usaron contextos aislados de navegador y solamente cambiaron sus datos locales de demostración. No hubo cargos, correos ni modificaciones a información de otros visitantes.
+
+Las actualizaciones posteriores que solo añaden este registro documental no cambian los archivos de la aplicación verificada.
