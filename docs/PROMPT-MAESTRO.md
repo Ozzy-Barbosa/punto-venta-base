@@ -1,0 +1,15 @@
+# Prompt maestro ejecutado · Brisa POS
+
+Actúa como diseñador de producto e ingeniero de software. Investiga fuentes oficiales de Square, Shopify POS, Lightspeed y Odoo. Extrae los patrones de operación que conviene reutilizar; no copies marcas, código ni interfaces propietarias. Documenta fuentes, decisiones y límites de la comparación.
+
+Crea un prototipo web de punto de venta para **Brisa · Mercado & Café**, negocio completamente ficticio en La Paz. Usa español, MXN y datos sintéticos. El usuario autoriza crear y publicar el repositorio en GitHub y GitHub Pages. Asume una sucursal, un navegador operativo y cero infraestructura de servidor para esta fase. No presupongas capacidad productiva o pagos reales.
+
+Diseño: aplicación de administración editorial, serena, rápida y profesional. Fondo marfil, verde bosque, acentos lima suave, tipografía de sistema, navegación lateral, indicadores con números claros, gráficas accesibles y un catálogo visual con ilustraciones originales. Debe adaptarse a escritorio, tableta y teléfono. Incluye foco de teclado, etiquetas, modales accesibles, estados vacíos y confirmaciones para acciones destructivas.
+
+Construye: dashboard calculado de operaciones; POS con búsqueda por nombre/SKU/código, categorías, carrito editable, descuento, cliente, efectivo/cambio y registro simulado de tarjeta/transferencia; tickets imprimibles; ventas y devolución completa trazable; CRUD de productos/clientes/proveedores; categorías editables; alertas, ajustes con motivo y libro de movimientos; órdenes de compra con recepción única; apertura, entradas, salidas y cierre de caja con diferencias; reportes y CSV; personalización de marca, sucursal, moneda e impuesto incluido; respaldo/importación validada y reinicio confirmado.
+
+Reglas: dinero en centavos enteros, unidades enteras positivas, SKU/códigos únicos, sin sobreventa, sin cobros duplicados, ventas históricas inmutables con instantáneas, devolución única que restaure inventario y afecte caja correctamente. Una venta requiere caja abierta. Los registros usados se archivan para conservar relaciones. Todos los cambios deben guardarse o mostrar un error; no sobrescribas datos inválidos silenciosamente. Protege las escrituras contra pestañas desactualizadas. Ningún botón principal puede ser decorativo.
+
+Arquitectura: React + TypeScript + Vite, motor de negocio puro y probado, validación de esquemas, configuración separada de los datos de demostración, adaptador de persistencia reemplazable. GitHub Pages sirve una demo estática local; explica que autenticación, base de datos compartida, autorización, fiscalidad y pagos reales requieren implementación adicional. No pongas secretos en el repositorio.
+
+Entrega: aplicación terminada, investigación comparativa, arquitectura y guía de adaptación, pruebas de reglas y de flujos en navegador, compilación de producción, repositorio público, despliegue automatizado y URL verificada en escritorio y móvil. Informa con precisión qué está probado y qué queda fuera.
